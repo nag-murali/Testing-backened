@@ -1,0 +1,25 @@
+{
+  "name": "Testing-backened",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nag-murali/Testing-backened.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nag-murali/Testing-backened/issues"
+  },
+  "homepage": "https://github.com/nag-murali/Testing-backened#readme",
+  "dependencies": {
+    "epxress": "0.0.1-security",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.7"
+  }
+}
