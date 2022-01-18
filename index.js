@@ -9,7 +9,7 @@ const connect = () => {
 app.listen(5354, async() => {
     try{
         await connect();
-        console.log("Listening to port 5454")
+        console.log("Listening to port 5354")
     }catch(err){
         console.log(err.message)
     }
