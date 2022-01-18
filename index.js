@@ -3,7 +3,7 @@ const app = express();
 const mongoose = require("mongoose");
 
 const connect = () => {
-    return mongoose.connect("mongodb://127.0.0.1:27017/test");
+    return mongoose.connect("mongodb+srv://murali:murali@web-test.6swdq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
 }
 
 app.listen(5354, async() => {
